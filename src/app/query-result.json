@@ -1,0 +1,197 @@
+{
+  "head" : {
+    "vars" : [
+      "start",
+      "property",
+      "end",
+      "index",
+      "path"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "start" : {
+          "id": 0,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/isoforms/P29218-3"
+        },
+        "property" : {
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/core/modification"
+        },
+        "end" : {
+          "id": 2,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/annotation/VSP_046308"
+        },
+        "index" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "0"
+        },
+        "path" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "0"
+        }
+      },
+      {
+        "start" : {
+          "id": 2,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/annotation/VSP_046308"
+        },
+        "property" : {
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/core/range"
+        },
+        "end" : {
+          "id": 4,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/range/22573219373463598tt1tt1"
+        },
+        "index" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "1"
+        },
+        "path" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "0"
+        }
+      },
+      {
+        "start" : {
+          "id": 4,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/range/22573219373463598tt1tt1"
+        },
+        "property" : {
+          "type" : "uri",
+          "value" : "http://biohackathon.org/resource/faldo#begin"
+        },
+        "end" : {
+          "id": 6,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/position/22573219373463598tt1"
+        },
+        "index" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "2"
+        },
+        "path" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "0"
+        }
+      },
+      {
+        "start" : {
+          "id": 0,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/isoforms/P29218-3"
+        },
+        "property" : {
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/core/modification"
+        },
+        "end" : {
+          "id": 2,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/annotation/VSP_046308"
+        },
+        "index" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "0"
+        },
+        "path" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "start" : {
+          "id": 2,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/annotation/VSP_046308"
+        },
+        "property" : {
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/core/range"
+        },
+        "end" : {
+          "id": 4,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/range/22573219373463598tt1tt1"
+        },
+        "index" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "1"
+        },
+        "path" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "start" : {
+          "id": 4,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/range/22573219373463598tt1tt1"
+        },
+        "property" : {
+          "type" : "uri",
+          "value" : "http://biohackathon.org/resource/faldo#end"
+        },
+        "end" : {
+          "id": 7,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/position/22573219373463598tt2"
+        },
+        "index" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "2"
+        },
+        "path" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "start" : {
+          "id": 7,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/position/22573219373463598tt2"
+        },
+        "property" : {
+          "type" : "uri",
+          "value" : "http://biohackathon.org/resource/faldo#longEend"
+        },
+        "end" : {
+          "id": 6,
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/position/22573219373463598tt1"
+        },
+        "index" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "2"
+        },
+        "path" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "1"
+        }
+      }
+    ]
+  }
+}
