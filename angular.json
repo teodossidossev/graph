@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "graph": {
+    "graph-v6": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/graph",
+            "outputPath": "dist/graph-v6",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "graph:build"
+            "browserTarget": "graph-v6:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "graph:build:production"
+              "browserTarget": "graph-v6:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "graph:build"
+            "browserTarget": "graph-v6:build"
           }
         },
         "test": {
@@ -113,16 +113,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "graph:serve"
+            "devServerTarget": "graph-v6:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "graph:serve:production"
+              "devServerTarget": "graph-v6:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "graph"
+  "defaultProject": "graph-v6"
 }
